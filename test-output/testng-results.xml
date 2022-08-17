@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-22T11:45:55 IST" name="Suite" finished-at="2022-07-22T11:46:04 IST" duration-ms="8922">
+    <groups>
+    </groups>
+    <test started-at="2022-07-22T11:45:55 IST" name="EdgeTest" finished-at="2022-07-22T11:46:02 IST" duration-ms="6239">
+      <class name="com.CrossBrowserTesting.CrossBrowserTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@52719fb6]" started-at="2022-07-22T11:45:55 IST" name="beforeTest" finished-at="2022-07-22T11:46:01 IST" duration-ms="5930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="clickOnAlert()[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@52719fb6]" started-at="2022-07-22T11:46:01 IST" name="clickOnAlert" finished-at="2022-07-22T11:46:01 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@52719fb6]" started-at="2022-07-22T11:46:01 IST" name="tearDown" finished-at="2022-07-22T11:46:02 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CrossBrowserTesting.CrossBrowserTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-07-22T11:46:02 IST" name="ChromeTest" finished-at="2022-07-22T11:46:04 IST" duration-ms="2642">
+      <class name="com.CrossBrowserTesting.CrossBrowserTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@4b741d6d]" started-at="2022-07-22T11:46:02 IST" name="beforeTest" finished-at="2022-07-22T11:46:04 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="clickOnAlert()[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@4b741d6d]" started-at="2022-07-22T11:46:04 IST" name="clickOnAlert" finished-at="2022-07-22T11:46:04 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CrossBrowserTesting.CrossBrowserTest@4b741d6d]" started-at="2022-07-22T11:46:04 IST" name="tearDown" finished-at="2022-07-22T11:46:04 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CrossBrowserTesting.CrossBrowserTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
